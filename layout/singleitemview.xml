@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <TextView
+        android:id="@+id/name_mutual"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textSize="30dp"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/image"
+         android:layout_toEndOf="@+id/image"
+         android:textColor="#FA0"
+         android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/address_mutual"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="countrylabel"
+        android:textColor="#ffff0c82"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_mutual"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Activities"
+        android:id="@+id/textView4"
+        android:textColor="#fffbfffd"
+        android:textAlignment="center"
+        android:background="#fdf92700"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:id="@+id/ButtonFollow"
+        android:background="@android:color/holo_orange_light"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unfollow"
+        android:id="@+id/ButtonUnfollow"
+        android:background="@android:color/holo_red_light"
+        android:layout_alignTop="@+id/ButtonFollow"
+        android:layout_alignRight="@+id/address_mutual"
+        android:layout_alignEnd="@+id/address_mutual"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="0dp" />
+
+
+</RelativeLayout>

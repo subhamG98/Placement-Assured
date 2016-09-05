@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:id="@+id/subham">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/editTextName"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editTextUn"
+        android:layout_alignStart="@+id/editTextUn" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:id="@+id/editTextUn"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_below="@+id/editTextName"
+        android:layout_alignLeft="@+id/editTextPass"
+        android:layout_alignStart="@+id/editTextPass" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/editTextPass"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editTextUn"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextAdd"
+        android:layout_gravity="center_horizontal"
+        android:hint="Address"
+        android:layout_below="@+id/editTextPass"
+        android:layout_alignLeft="@+id/editTextPass"
+        android:layout_alignStart="@+id/editTextPass" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/button2"
+
+        android:layout_gravity="right"
+        android:onClick="insert"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Choose Dp"
+        android:id="@+id/buttonDp1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/mubutton1"
+        android:textColor="#ffffffff" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewDp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextAdd" />
+</RelativeLayout>

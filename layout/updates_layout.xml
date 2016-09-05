@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textColor="#fd171004"
+        android:text="LATEST QUESTIONS"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aptitude Test"
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/at1"
+        android:layout_marginTop="62dp"
+        android:background="#A8FFD5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical Test"
+        android:id="@+id/button5"
+        android:layout_below="@+id/at3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#A95ECC" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test-I"
+        android:id="@+id/at1"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:background="#EBC1FF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST-II"
+        android:id="@+id/at2"
+        android:layout_below="@+id/at1"
+        android:layout_centerHorizontal="true"
+        android:background="#FFF3DB" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST-III"
+        android:id="@+id/at3"
+        android:layout_below="@+id/at2"
+        android:layout_alignLeft="@+id/at2"
+        android:layout_alignStart="@+id/at2"
+        android:background="#FEC4FF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST-I"
+        android:id="@+id/tt1"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:background="#F8DCFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST-II"
+        android:id="@+id/tt2"
+        android:layout_below="@+id/tt1"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEEC4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST-III"
+        android:id="@+id/tt3"
+        android:layout_below="@+id/tt2"
+        android:layout_centerHorizontal="true"
+        android:background="#88CCB4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCQ TEST"
+        android:id="@+id/button"
+        android:layout_below="@+id/tt3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/mybuttonyellow" />
+
+</RelativeLayout>

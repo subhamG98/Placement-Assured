@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="700dp">
+
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listViewTech"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/textView2"
+    android:layout_above="@+id/button6"
+    android:background="#FFEEC4" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Technical Paper-1"
+    android:id="@+id/textView2"
+    android:textColor="#ffff6410"
+    android:textSize="30dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Answers"
+    android:id="@+id/button6"
+    android:layout_alignWithParentIfMissing="false"
+    android:layout_alignTop="@+id/button7"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#C3D4FF" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next Test"
+    android:id="@+id/button7"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:background="#657AB2" />
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listViewTechAns"
+    android:layout_below="@+id/button6"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#F3C3FF" />
+
+
+
+</RelativeLayout>
+
