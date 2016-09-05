@@ -10,14 +10,14 @@ Facebook and Twitter login has also been done.
 
 
 
-<img src="/screenshots/1.jpg" width="350" height="250">
-<img src="/screenshots/2.jpg" width="350" height="250">
-<img src="/screenshots/3.jpg" width="350" height="250">
-<img src="/screenshots/4.jpg" width="350" height="250">
-<img src="/screenshots/5.jpg" width="350" height="250">
-<img src="/screenshots/6.jpg" width="350" height="250">
-<img src="/screenshots/7.jpg" width="350" height="250">
-<img src="/screenshots/8.jpg" width="350" height="250">
+<img src="/screenshots/1.jpg" width="250" height="350">
+<img src="/screenshots/2.jpg" width="250" height="350">
+<img src="/screenshots/3.jpg" width="250" height="350">
+<img src="/screenshots/4.jpg" width="250" height="350">
+<img src="/screenshots/5.jpg" width="250" height="350">
+<img src="/screenshots/6.jpg" width="250" height="350">
+<img src="/screenshots/7.jpg" width="250" height="350">
+<img src="/screenshots/8.jpg" width="250" height="350">
 
 
 
