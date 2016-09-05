@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text="subham"
+        android:textSize="15dp"
+        android:textColor="#ffff8b3f"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:minHeight="30dp"
+        android:capitalize="characters"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text="subham"
+        android:textSize="15dp"
+        android:textColor="#ffff8b3f"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:minHeight="30dp"
+        android:capitalize="characters"
+        android:layout_below="@+id/location"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_alignLeft="@+id/location"
+        android:layout_alignStart="@+id/location" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="subham"
+        android:textSize="15dp"
+        android:textColor="#ffff8b3f"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:minHeight="30dp"
+        android:capitalize="characters"
+        android:layout_below="@+id/title"
+        android:textStyle="normal"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text="subham"
+        android:textSize="15dp"
+        android:textColor="#ffff8b3f"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:minHeight="30dp"
+        android:capitalize="characters"
+        android:layout_below="@+id/salary"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_alignLeft="@+id/salary"
+        android:layout_alignStart="@+id/salary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Title"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Location"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Salary"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/location"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Skills"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/skills"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
